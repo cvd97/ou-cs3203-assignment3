@@ -16,3 +16,14 @@ def multiply(numbers):
     print(result) 
 
 print(multiply(numbers))
+
+def main():
+    
+    s = input()
+    
+    n = list(map(int,s.split()))
+    
+    print(sum(n))
+    print(multiply(n))
+    
+main()
