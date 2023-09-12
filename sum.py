@@ -1,5 +1,9 @@
 numbers = [2,3,4,5,5]
 
+def reverse(numbers):
+    list = numbers[::-1]
+    return list
+
 def sum(numbers):
     total = 0
     for number in numbers:
@@ -25,5 +29,6 @@ def main():
     
     print(sum(n))
     print(multiply(n))
+    print(reverse(n))
     
 main()
